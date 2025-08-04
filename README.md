@@ -1,4 +1,4 @@
-# Chronic Kidney Disease (CKD) Prediction Project
+# Chronic Kidney Disease (CKD) Prediction 
 
 ## 🏥 Early Prediction for Chronic Kidney Disease Detection: A Progressive Approach to Health Management
 
@@ -7,7 +7,7 @@ A comprehensive machine learning project for early detection and risk assessment
 [![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)](https://www.python.org/downloads/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-orange.svg)](https://scikit-learn.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100.0-green.svg)](https://fastapi.tiangolo.com/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 
 ## 📋 Table of Contents
 
@@ -16,12 +16,7 @@ A comprehensive machine learning project for early detection and risk assessment
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Model Performance](#model-performance)
-- [Clinical Integration](#clinical-integration)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## 🔍 Overview
 
@@ -77,13 +72,10 @@ Chronic Kidney Disease (CKD) affects approximately 24-28 million people in the U
 ### Step 1: Clone or Download
 
 ```bash
-# Option 1: Clone from repository
-git clone https://github.com/your-username/ckd-prediction.git
+# Clone from repository
+gh repo clone Naik-Prathamesh/Early-Prediction-for-Chronic-Kidney-Disease-Detection
 cd ckd-prediction
 
-# Option 2: Create project directory manually
-mkdir ckd-prediction
-cd ckd-prediction
 ```
 
 ### Step 2: Create Virtual Environment
@@ -110,9 +102,7 @@ pip install -r requirements.txt
 python -c "import pandas, sklearn, xgboost, fastapi; print('Installation successful!')"
 ```
 
-### Step 4: Download Dataset
 
-Download the CKD dataset from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Chronic_Kidney_Disease) and place it in the `data/` directory as `chronic_kidney_disease_full.csv`.
 
 ## 🚀 Quick Start
 
@@ -135,6 +125,4 @@ python main.py --models rf xgb --data-path ../data/chronic_kidney_disease_full.c
 # Start development server
 python api.py
 
-# Or using uvicorn directly
-uvicorn api:app --reload --host 0.0.0.0 --port 8000
 ```
