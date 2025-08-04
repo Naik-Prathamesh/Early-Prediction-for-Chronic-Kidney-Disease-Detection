@@ -1,0 +1,10 @@
+2025-08-01 22:20:28,132 - __main__ - INFO - Starting CKD Prediction Model Training Pipeline
+2025-08-01 22:20:28,132 - __main__ - INFO - Arguments: {'data_path': '../data/chronic_kidney_disease_full.csv', 'models': ['all'], 'test_size': 0.2, 'random_state': 42, 'save_models': True, 'create_plots': True, 'log_level': 'INFO', 'skip_preprocessing': False}
+2025-08-01 22:20:28,147 - __main__ - ERROR - Data file not found: ../data/chronic_kidney_disease_full.csv
+2025-08-01 22:20:28,147 - __main__ - INFO - Please ensure the dataset file exists at the specified path.
+2025-08-01 22:20:28,147 - __main__ - INFO - You can download the CKD dataset from: https://archive.ics.uci.edu/ml/datasets/Chronic_Kidney_Disease
+2025-08-01 22:20:56,052 - __main__ - INFO - Starting CKD Prediction Model Training Pipeline
+2025-08-01 22:20:56,052 - __main__ - INFO - Arguments: {'data_path': '../data/chronic_kidney_disease_full.csv', 'models': ['rf', 'xgb'], 'test_size': 0.2, 'random_state': 42, 'save_models': True, 'create_plots': True, 'log_level': 'INFO', 'skip_preprocessing': False}
+2025-08-01 22:20:56,068 - __main__ - ERROR - Data file not found: ../data/chronic_kidney_disease_full.csv
+2025-08-01 22:20:56,068 - __main__ - INFO - Please ensure the dataset file exists at the specified path.
+2025-08-01 22:20:56,068 - __main__ - INFO - You can download the CKD dataset from: https://archive.ics.uci.edu/ml/datasets/Chronic_Kidney_Disease
