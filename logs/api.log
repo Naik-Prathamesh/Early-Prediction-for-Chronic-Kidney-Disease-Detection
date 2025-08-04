@@ -45,3 +45,42 @@
 2025-08-04 20:25:02,455 INFO  * Debugger PIN: 447-843-959
 2025-08-04 20:25:12,310 INFO 127.0.0.1 - - [04/Aug/2025 20:25:12] "GET / HTTP/1.1" 200 -
 2025-08-04 20:25:12,830 INFO 127.0.0.1 - - [04/Aug/2025 20:25:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-04 21:10:49,621 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.36:5000
+2025-08-04 21:10:49,622 INFO [33mPress CTRL+C to quit[0m
+2025-08-04 21:10:49,628 INFO  * Restarting with stat
+2025-08-04 21:10:55,493 WARNING  * Debugger is active!
+2025-08-04 21:10:55,521 INFO  * Debugger PIN: 447-843-959
+2025-08-04 21:11:00,114 INFO 127.0.0.1 - - [04/Aug/2025 21:11:00] "GET / HTTP/1.1" 200 -
+2025-08-04 21:11:00,573 INFO 127.0.0.1 - - [04/Aug/2025 21:11:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-04 21:12:25,194 INFO 127.0.0.1 - - [04/Aug/2025 21:12:25] "GET / HTTP/1.1" 200 -
+2025-08-04 21:12:26,751 INFO 127.0.0.1 - - [04/Aug/2025 21:12:26] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__21ea795d_50c2_4368_ad8c_8ac535059bb0__0 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:27,109 INFO 127.0.0.1 - - [04/Aug/2025 21:12:27] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__cbf6344f_b5f7_4063_bf88_d60a67aab35b__1 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:27,117 INFO 127.0.0.1 - - [04/Aug/2025 21:12:27] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__07d72b93_7a67_4e2f_9e11_af73f692d7e9__2 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:28,891 INFO 127.0.0.1 - - [04/Aug/2025 21:12:28] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__33eca46e_a8d7_433d_8513_fc76409a636a__3 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:29,206 INFO 127.0.0.1 - - [04/Aug/2025 21:12:29] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__715854e7_a072_4d8c_9ce9_fb12b7f9f284__4 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:29,223 INFO 127.0.0.1 - - [04/Aug/2025 21:12:29] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__c761cea7_45f2_4993_892d_eb1628a20c4c__5 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:29,581 INFO 127.0.0.1 - - [04/Aug/2025 21:12:29] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__075ca7c0_ea2f_40e3_a10e_0602831e4d77__0 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:29,930 INFO 127.0.0.1 - - [04/Aug/2025 21:12:29] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__95f8461e_c19e_476e_a053_f57c4f976d07__1 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:29,938 INFO 127.0.0.1 - - [04/Aug/2025 21:12:29] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__99e835a3_1d3f_46cc_88e1_e4963e2ad63c__2 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:30,197 INFO 127.0.0.1 - - [04/Aug/2025 21:12:30] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__ed30aedc_50a4_40a8_a9c1_ad1584453683__0 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:30,289 INFO 127.0.0.1 - - [04/Aug/2025 21:12:30] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__662eae26_8bba_4b9f_8780_2e0c4bad741b__1 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:30,297 INFO 127.0.0.1 - - [04/Aug/2025 21:12:30] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__7923402b_6dd5_445c_9344_420a38607ed2__2 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:30,330 INFO 127.0.0.1 - - [04/Aug/2025 21:12:30] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__41511ca5_e5d1_42d5_a199_3119479b03bd__0 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:30,664 INFO 127.0.0.1 - - [04/Aug/2025 21:12:30] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__69324dd8_b714_4cc4_bc6f_493221a3395c__1 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:30,664 INFO 127.0.0.1 - - [04/Aug/2025 21:12:30] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__6ba91f3e_2c20_4bf5_b40e_b3841d4ed57f__2 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:30,912 INFO 127.0.0.1 - - [04/Aug/2025 21:12:30] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__7013f9cb_e248_4eba_9146_ef83f5cfd519__0 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:31,062 INFO 127.0.0.1 - - [04/Aug/2025 21:12:31] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__1eba9207_c843_444a_97a0_2dd40483e88c__1 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:31,087 INFO 127.0.0.1 - - [04/Aug/2025 21:12:31] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__3e6f5849_62c8_4a64_9b23_741ed9be1fd1__2 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:31,310 INFO 127.0.0.1 - - [04/Aug/2025 21:12:31] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__5cfb62d5_f7b7_451f_9663_28ce70cdcb21__0 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:31,637 INFO 127.0.0.1 - - [04/Aug/2025 21:12:31] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__c44a8277_9dba_453a_a5c2_15a566e8312b__1 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:31,645 INFO 127.0.0.1 - - [04/Aug/2025 21:12:31] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__91078757_95f2_4cf0_b91d_5adb6e20ee6f__2 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:31,895 INFO 127.0.0.1 - - [04/Aug/2025 21:12:31] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__af359e4c_0001_4a47_a1f8_23163da25fd4__0 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:31,970 INFO 127.0.0.1 - - [04/Aug/2025 21:12:31] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__14b21c76_cc8b_4dbe_98b6_c1fa548f52ef__1 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:31,995 INFO 127.0.0.1 - - [04/Aug/2025 21:12:31] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__84774cc1_ec2a_4373_bdb0_2674f3d02a37__2 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:32,103 INFO 127.0.0.1 - - [04/Aug/2025 21:12:32] "[33mGET /hybridaction/zybTrackerStatisticsAction?data={}&__callback__=__cb__zybTrackerStatisticsAction__c11f0bb2_dba6_41df_a119_472e159aa982__0 HTTP/1.1[0m" 404 -
+2025-08-04 21:12:33,213 INFO 127.0.0.1 - - [04/Aug/2025 21:12:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-04 21:28:46,304 INFO Prediction made: ckd for data: {'age': 53, 'bp': 90, 'sg': 1.02, 'al': 2, 'su': 0, 'rbc': 'abnormal', 'pc': 'abnormal', 'pcc': 'present', 'ba': 'notpresent', 'bgr': 70, 'bu': 160, 'sc': 7.2, 'sod': 114, 'pot': 3.7, 'hemo': 9.5, 'pcv': 29, 'wc': 12100, 'rc': 3.7, 'htn': 'yes', 'dm': 'yes', 'cad': 'no', 'appet': 'poor', 'pe': 'no', 'ane': 'yes'}
+2025-08-04 21:28:46,304 INFO 127.0.0.1 - - [04/Aug/2025 21:28:46] "POST /predict HTTP/1.1" 200 -

@@ -138,3 +138,7 @@ python api.py
 # Or using uvicorn directly
 uvicorn api:app --reload --host 0.0.0.0 --port 8000
 ```
+
+## Result
+
+![Alt text](Result.png)
