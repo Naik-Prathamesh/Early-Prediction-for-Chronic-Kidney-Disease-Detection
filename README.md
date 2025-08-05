@@ -73,8 +73,8 @@ Chronic Kidney Disease (CKD) affects approximately 24-28 million people in the U
 
 ```bash
 # Clone from repository
-gh repo clone Naik-Prathamesh/Early-Prediction-for-Chronic-Kidney-Disease-Detection
-cd ckd-prediction
+git clone https://github.com/Naik-Prathamesh/Early-Prediction-for-Chronic-Kidney-Disease-Detection.git
+cd Early-Prediction-for-Chronic-Kidney-Disease-Detection/
 
 ```
 
@@ -84,13 +84,13 @@ cd ckd-prediction
 # Create virtual environment
 python -m venv venv
 
-# Activate virtual environment
-# Windows:
-.\venv\Scripts\activate
-
-# macOS/Linux:
-source venv/bin/activate
 ```
+# Activate virtual environment
+```cmd
+cd Early-Prediction-for-Chronic-Kidney-Disease-Detection/
+.\venv\Scripts\activate
+```
+
 
 ### Step 3: Install Dependencies
 
@@ -99,27 +99,15 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Verify installation
-python -c "import pandas, sklearn, xgboost, fastapi; print('Installation successful!')"
+python -c "import pandas, sklearn, xgboost, fastapi; print('Installation successful')"
 ```
 
 
 
 ## 🚀 Quick Start
 
-### 1. Train Models
 
-```bash
-# Navigate to src directory
-cd src
-
-# Run complete training pipeline
-python main.py --data-path ../data/chronic_kidney_disease_full.csv
-
-# Train specific models only
-python main.py --models rf xgb --data-path ../data/chronic_kidney_disease_full.csv
-```
-
-### 2. Start API Server
+### Start API Server
 
 ```bash
 # Start development server
