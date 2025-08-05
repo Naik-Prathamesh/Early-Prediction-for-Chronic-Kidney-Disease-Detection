@@ -85,7 +85,7 @@ cd Early-Prediction-for-Chronic-Kidney-Disease-Detection/
 python -m venv venv
 
 ```
-### step 3: Activate virtual environment
+### Step 3: Activate virtual environment
 ```cmd
 cd Early-Prediction-for-Chronic-Kidney-Disease-Detection/
 .\venv\Scripts\activate
